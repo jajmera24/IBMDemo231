@@ -1,20 +1,26 @@
 pipeline {
   agent none
   stages {
-    stage('stage1') {
+    stage('stage 1') {
       steps {
-        echo 'hello'
+        echo 'Hello, Today we are learning  Blue Ocean'
       }
     }
 
     stage('stage 2') {
       steps {
-        echo 'this is stage 2'
+        echo 'IBM_WebAppDevelopment1'
+      }
+    }
+
+    stage('stage 3') {
+      steps {
+        echo 'Status is Successful'
       }
     }
 
   }
   environment {
-    prd = 'value1'
+    developer = 'IBMserver1'
   }
 }
